@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>System Monitoring Dashboard</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>System Monitoring Dashboard</h1>
+
+<h2>System Status</h2>
+<div id="statusIndicator" class="status-box"></div>
+
+
+<h2>Resource Usage</h2>
+
+<div class="resource-grid">
+
+<div class="resource-item">
+<p>CPU</p>
+<div class="progress-bar"><div id="cpuBar"></div></div>
+</div>
+
+<div class="resource-item">
+<p>Memory</p>
+<div class="progress-bar"><div id="memoryBar"></div></div>
+</div>
+
+<div class="resource-item">
+<p>Disk</p>
+<div class="progress-bar"><div id="diskBar"></div></div>
+</div>
+
+</div>
+
+
+
+<h2>Live Charts</h2>
+
+<div class="chart-grid">
+
+<canvas id="cpuChart"></canvas>
+
+<canvas id="memoryChart"></canvas>
+
+<canvas id="networkChart"></canvas>
+
+</div>
+
+
+<h2>Top Processes</h2>
+
+<table id="processTable">
+
+<thead>
+<tr>
+<th>Process Name</th>
+<th>CPU %</th>
+</tr>
+</thead>
+
+<tbody></tbody>
+
+</table>
+
+
+<h2>Recommendations</h2>
+<ul id="recommendations"></ul>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>

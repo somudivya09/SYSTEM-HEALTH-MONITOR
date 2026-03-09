@@ -1,0 +1,145 @@
+body{
+
+font-family: Arial;
+background:#121212;
+color:white;
+text-align:center;
+
+}
+
+
+h1{
+
+margin:20px;
+
+}
+
+
+/* STATUS BOX */
+
+.status-box{
+
+font-size:20px;
+padding:10px;
+margin:auto;
+width:220px;
+border-radius:8px;
+font-weight:bold;
+
+}
+
+.status-healthy{
+background:#2ecc71;
+}
+
+.status-moderate{
+background:#f1c40f;
+color:black;
+}
+
+.status-critical{
+background:#e74c3c;
+}
+
+
+
+/* ALERT BANNER */
+
+.alert-box{
+
+background:#e74c3c;
+color:white;
+padding:12px;
+margin:15px auto;
+width:60%;
+border-radius:6px;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+
+/* RESOURCE GRID */
+
+.resource-grid{
+
+display:flex;
+justify-content:center;
+gap:40px;
+margin-bottom:20px;
+
+}
+
+.resource-item{
+width:200px;
+}
+
+
+
+/* SMALL PROGRESS BARS */
+
+.progress-bar{
+
+width:100%;
+height:12px;
+background:#444;
+border-radius:10px;
+overflow:hidden;
+
+}
+
+.progress-bar div{
+
+height:100%;
+background:#3498db;
+width:0%;
+
+}
+
+
+
+/* CHART GRID */
+
+.chart-grid{
+
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+
+}
+
+canvas{
+
+width:400px !important;
+height:250px !important;
+
+}
+
+
+
+/* PROCESS TABLE */
+
+table{
+
+margin:auto;
+border-collapse:collapse;
+width:60%;
+
+}
+
+th,td{
+
+border:1px solid #555;
+padding:8px;
+
+}
+
+th{
+background:#333;
+}
+
+table tr:hover{
+background:#222;
+}
